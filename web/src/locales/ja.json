@@ -1,0 +1,271 @@
+{
+  "sidebar": {
+    "title": "Project-K",
+    "subtitle": "統合開発プラットフォーム",
+    "footer": "CAINZ Hackathon 2026"
+  },
+  "errorLog": {
+    "pageTitle": "エラーログ検索",
+    "pageDescription": "エラーログを分析し、類似の問題と解決策を検索します",
+    "inputTitle": "エラーログ",
+    "inputPlaceholder": "エラーログを貼り付けてください...\n\n例:\njava.lang.NullPointerException: Cannot invoke method getSession() on null object\n    at com.example.auth.AuthService.validateUser(AuthService.java:45)\n    at com.example.controller.LoginController.login(LoginController.java:32)",
+    "analyze": "分析",
+    "analyzing": "分析中...",
+    "classification": "エラー分類",
+    "type": "タイプ",
+    "category": "カテゴリ",
+    "severity": "深刻度",
+    "relatedIssues": "類似の問題",
+    "resolved": "解決済み",
+    "solutions": "推奨ソリューション"
+  },
+  "knowledge": {
+    "pageTitle": "ナレッジ検索",
+    "pageDescription": "Confluence・JIRA・Web・AIを活用して情報を検索します",
+    "searchPlaceholder": "検索キーワードを入力...",
+    "searchButton": "検索",
+    "resultsCount": "{{count}}件の結果が見つかりました",
+    "noResults": "検索結果が見つかりませんでした",
+    "openLink": "開く",
+    "section": {
+      "internal": "社内結果",
+      "teams": "Teams結果",
+      "web": "Web結果",
+      "ai": "AI結果"
+    },
+    "source": {
+      "confluence": "Confluence",
+      "jira": "JIRA",
+      "web": "Web",
+      "ai": "AI",
+      "teams": "Teams"
+    },
+    "stage": {
+      "internal": "社内検索",
+      "teams": "Teams検索",
+      "web": "Web検索",
+      "ai": "AI分析"
+    },
+    "teamsNote": "※Teams検索は権限設定後に利用可能"
+  },
+  "settings": {
+    "pageTitle": "テンプレート設定",
+    "pageDescription": "JIRAチケット生成のテンプレートをカスタマイズします",
+    "workHours": "作業時間範囲",
+    "workHoursMin": "最小",
+    "workHoursMax": "最大",
+    "issueTypes": "課題タイプ",
+    "defaultIssueType": "デフォルト課題タイプ",
+    "labels": "ラベル設定",
+    "maxLabels": "最大ラベル数",
+    "labelSuggestions": "ラベル候補",
+    "descriptionTemplate": "説明テンプレート",
+    "priorityRules": "優先度ルール",
+    "defaultPriority": "デフォルト優先度",
+    "highPriorityKeywords": "高優先度キーワード",
+    "lowPriorityKeywords": "低優先度キーワード",
+    "customInstructions": "カスタム指示",
+    "customInstructionsPlaceholder": "AIへの追加指示を入力...",
+    "resetToDefault": "デフォルトに戻す",
+    "saved": "設定を保存しました"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "create": "作成",
+    "delete": "削除",
+    "edit": "編集",
+    "save": "保存",
+    "selectAll": "すべて選択",
+    "deselectAll": "すべて解除",
+    "selected": "選択中",
+    "hour": "時間",
+    "hours": "時間",
+    "items": "件"
+  },
+  "jira": {
+    "pageTitle": "自動チケット作成",
+    "pageDescription": "依頼内容を入力すると、自動でタスクを細分化しJIRAチケットを作成します",
+    "inputTitle": "依頼内容",
+    "inputPlaceholder": "依頼内容を入力してください...\n\n例: 認証画面でログインボタン押しても反応しないって問い合わせが来てます。あと、パスワードリセットも動いてないみたい。",
+    "analyzeButton": "タスクを分析・細分化",
+    "analyzing": "分析中...",
+    "analysisResult": "分析結果",
+    "ticketCount": "チケット数",
+    "totalHours": "合計工数",
+    "parentTicket": "親チケット",
+    "groupSubtasks": "以下のサブタスクをグループ化します",
+    "generatedTickets": "生成されたチケット",
+    "showDetails": "詳細を表示",
+    "hideDetails": "詳細を隠す",
+    "createSelectedTickets": "選択した{{count}}件のチケットを作成",
+    "creating": "作成中...",
+    "createSuccess": "{{count}}件のチケットを作成しました",
+    "createError": "チケット作成に失敗しました",
+    "viewInJira": "JIRAで確認",
+    "priority": {
+      "highest": "最高",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "lowest": "最低"
+    },
+    "issueType": {
+      "bug": "バグ",
+      "task": "タスク",
+      "story": "ストーリー",
+      "epic": "エピック",
+      "subtask": "サブタスク"
+    },
+    "confidence": "確信度",
+    "createConfluencePages": "Confluenceページも作成",
+    "confluenceSpace": "Confluenceスペース",
+    "jiraProject": "JIRAプロジェクト",
+    "configureSearchScope": "検索範囲を設定",
+    "settingsSampleNote": "サンプル設定（デモ用）",
+    "settingsSampleDescription": "実際の実装では環境変数またはAPIから設定を取得します。現在はサンプル値を表示しています。",
+    "similarDocuments": "類似ドキュメント",
+    "searchingSimilar": "類似ドキュメントを検索中...",
+    "similarDocsFound": "{{count}}件の関連ドキュメントが見つかりました。チケット作成前にご確認ください。"
+  },
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "jiraAutomation": "チケット作成",
+    "knowledgeSearch": "ナレッジ検索",
+    "prReview": "PRレビュー",
+    "errorLogSearch": "エラーログ検索"
+  },
+  "dashboard": {
+    "welcome": "Project-K へようこそ",
+    "subtitle": "開発・運用の面倒を吸い取る統合プラットフォーム",
+    "featuresTitle": "機能一覧",
+    "externalToolsTitle": "外部ツール",
+    "startButton": "開始する",
+    "configStatus": "設定ステータス",
+    "configNote": "以下の設定が完了していません。デモでは一部機能が制限されます。",
+    "teamsNotConfigured": "Teams API 未設定",
+    "teamsNotConfiguredDesc": "Azure AD アプリ登録が必要です（管理者権限が必要）",
+    "confluenceSpaceNotSet": "Confluence Space ID 未設定",
+    "confluenceSpaceNotSetDesc": "VITE_CONFLUENCE_SPACE_ID 環境変数を設定してください",
+    "allConfigured": "すべての設定が完了しています",
+    "requiresSetup": "要設定",
+    "features": {
+      "jira": {
+        "title": "JIRA自動化",
+        "description": "チャットから自動でJIRAチケットを作成"
+      },
+      "knowledge": {
+        "title": "ナレッジ検索",
+        "description": "Confluence・JIRAを横断検索"
+      },
+      "prReview": {
+        "title": "PRレビュー",
+        "description": "自動コードレビュー"
+      },
+      "errorLog": {
+        "title": "エラーログ検索",
+        "description": "エラーログから解決策を検索"
+      }
+    },
+    "stats": {
+      "ticketsCreated": "今週作成したチケット",
+      "reviewedPRs": "レビュー完了PR",
+      "searchQueries": "検索クエリ",
+      "resolvedIssues": "解決した課題",
+      "openIssues": "未解決の課題",
+      "inProgress": "進行中",
+      "highPriority": "優先度: 高/最高",
+      "bugs": "未解決バグ",
+      "dueToday": "今日が期限",
+      "overdue": "期限超過",
+      "updatedToday": "今日更新",
+      "loading": "読み込み中...",
+      "error": "データ取得エラー",
+      "retry": "再試行",
+      "lastUpdated": "最終更新",
+      "liveData": "JIRA連携中",
+      "projectKey": "プロジェクト"
+    },
+    "externalLinks": {
+      "confluence": "ナレッジベース・ドキュメント",
+      "jira": "プロジェクト・課題管理",
+      "salesforce": "CRM・顧客管理"
+    },
+    "activeTasks": {
+      "title": "アクティブなタスク",
+      "inProgress": "進行中",
+      "todo": "To Do",
+      "highPriority": "優先度: 高",
+      "dueOrOverdue": "期限切れ・今日まで",
+      "noTasks": "タスクがありません",
+      "unassigned": "未割り当て",
+      "openInJira": "JIRAで開く"
+    }
+  },
+  "prReview": {
+    "pageTitle": "PRレビュー",
+    "pageDescription": "AIによる自動コードレビューを実行します",
+    "stats": {
+      "activePRs": "アクティブなPR",
+      "avgMergeTime": "平均マージ時間",
+      "qualityRate": "品質合格率",
+      "complexityIssues": "複雑度の課題",
+      "weeklyChange": "先週比"
+    },
+    "recentPRs": {
+      "title": "最近のプルリクエスト",
+      "viewAll": "すべて表示",
+      "highComplexity": "高複雑度",
+      "lowComplexity": "低複雑度",
+      "mediumComplexity": "中複雑度",
+      "ago": "前"
+    },
+    "quickStart": {
+      "title": "クイックスタート",
+      "description": "GitHub Actionをインストールして、ワークフローの最適化を今すぐ始めましょう。",
+      "viewDocs": "ドキュメントを見る"
+    },
+    "insights": {
+      "aiReview": "AIレビューの知見",
+      "aiReviewDesc": "自動スクリーニングの導入により、今月のセキュリティ脆弱性は15%減少しました。",
+      "commitConsistency": "コミットの整合性",
+      "commitConsistencyDesc": "92%のコミットがConventional Commits仕様に従っており、トレーサビリティが向上しています。"
+    },
+    "systemStatus": {
+      "title": "システムステータス",
+      "githubWebhook": "GitHub Webhook",
+      "aiWorkerNodes": "AIワーカーノード",
+      "active": "稼働中",
+      "inactive": "停止中",
+      "running": "稼働中"
+    },
+    "review": {
+      "title": "PRレビューを実行",
+      "urlPlaceholder": "GitHubのPR URLを入力... (例: https://github.com/owner/repo/pull/123)",
+      "startReview": "レビュー開始",
+      "analyzing": "分析中...",
+      "result": "レビュー結果",
+      "issuesFound": "検出された問題",
+      "issuesCount": "{{count}}件",
+      "suggestions": "改善提案",
+      "filesChanged": "変更ファイル",
+      "complexityScore": "複雑度スコア",
+      "severity": {
+        "error": "エラー",
+        "warning": "警告",
+        "info": "情報"
+      },
+      "recommendation": {
+        "APPROVE": "承認推奨",
+        "REQUEST_CHANGES": "変更要求",
+        "COMMENT": "コメント"
+      }
+    },
+    "time": {
+      "hoursAgo": "{{count}}時間前",
+      "minutesAgo": "{{count}}分前",
+      "minute": "分",
+      "running": "稼働中"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "sidebar": {
+    "title": "Project-K",
+    "subtitle": "Unified Dev Platform",
+    "footer": "CAINZ Hackathon 2026"
+  },
+  "errorLog": {
+    "pageTitle": "Error Log Search",
+    "pageDescription": "Analyze error logs and search for similar issues and solutions",
+    "inputTitle": "Error Log",
+    "inputPlaceholder": "Paste your error log here...\n\nExample:\njava.lang.NullPointerException: Cannot invoke method getSession() on null object\n    at com.example.auth.AuthService.validateUser(AuthService.java:45)\n    at com.example.controller.LoginController.login(LoginController.java:32)",
+    "analyze": "Analyze",
+    "analyzing": "Analyzing...",
+    "classification": "Error Classification",
+    "type": "Type",
+    "category": "Category",
+    "severity": "Severity",
+    "relatedIssues": "Related Issues",
+    "resolved": "Resolved",
+    "solutions": "Recommended Solutions"
+  },
+  "knowledge": {
+    "pageTitle": "Knowledge Search",
+    "pageDescription": "Search information using Confluence, JIRA, Web, and AI",
+    "searchPlaceholder": "Enter search keywords...",
+    "searchButton": "Search",
+    "resultsCount": "{{count}} results found",
+    "noResults": "No results found",
+    "openLink": "Open",
+    "section": {
+      "internal": "Internal Results",
+      "teams": "Teams Results",
+      "web": "Web Results",
+      "ai": "AI Results"
+    },
+    "source": {
+      "confluence": "Confluence",
+      "jira": "JIRA",
+      "web": "Web",
+      "ai": "AI",
+      "teams": "Teams"
+    },
+    "stage": {
+      "internal": "Internal Search",
+      "teams": "Teams Search",
+      "web": "Web Search",
+      "ai": "AI Analysis"
+    },
+    "teamsNote": "※Teams search available with proper permissions"
+  },
+  "settings": {
+    "pageTitle": "Template Settings",
+    "pageDescription": "Customize templates for JIRA ticket generation",
+    "workHours": "Work Hours Range",
+    "workHoursMin": "Minimum",
+    "workHoursMax": "Maximum",
+    "issueTypes": "Issue Types",
+    "defaultIssueType": "Default Issue Type",
+    "labels": "Label Settings",
+    "maxLabels": "Max Labels",
+    "labelSuggestions": "Label Suggestions",
+    "descriptionTemplate": "Description Template",
+    "priorityRules": "Priority Rules",
+    "defaultPriority": "Default Priority",
+    "highPriorityKeywords": "High Priority Keywords",
+    "lowPriorityKeywords": "Low Priority Keywords",
+    "customInstructions": "Custom Instructions",
+    "customInstructionsPlaceholder": "Enter additional instructions for AI...",
+    "resetToDefault": "Reset to Default",
+    "saved": "Settings saved"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "create": "Create",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "selected": "selected",
+    "hour": "hour",
+    "hours": "hours",
+    "items": "items"
+  },
+  "jira": {
+    "pageTitle": "Auto Ticket Creation",
+    "pageDescription": "Enter your request and tickets will be automatically broken down and created in JIRA",
+    "inputTitle": "Request Details",
+    "inputPlaceholder": "Enter your request...\n\nExample: We received a report that the login button on the auth screen isn't responding. Also, the password reset feature seems broken.",
+    "analyzeButton": "Analyze & Break Down Tasks",
+    "analyzing": "Analyzing...",
+    "analysisResult": "Analysis Result",
+    "ticketCount": "Tickets",
+    "totalHours": "Total Hours",
+    "parentTicket": "Parent Ticket",
+    "groupSubtasks": "Groups the following subtasks",
+    "generatedTickets": "Generated Tickets",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details",
+    "createSelectedTickets": "Create {{count}} selected tickets",
+    "creating": "Creating...",
+    "createSuccess": "{{count}} ticket(s) created successfully",
+    "createError": "Failed to create tickets",
+    "viewInJira": "View in JIRA",
+    "priority": {
+      "highest": "Highest",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "lowest": "Lowest"
+    },
+    "issueType": {
+      "bug": "Bug",
+      "task": "Task",
+      "story": "Story",
+      "epic": "Epic",
+      "subtask": "Sub-task"
+    },
+    "confidence": "Confidence",
+    "createConfluencePages": "Also create Confluence pages",
+    "confluenceSpace": "Confluence Space",
+    "jiraProject": "JIRA Project",
+    "configureSearchScope": "Configure search scope",
+    "settingsSampleNote": "Sample Configuration (Demo)",
+    "settingsSampleDescription": "In production, settings will be loaded from environment variables or API. Currently showing sample values.",
+    "similarDocuments": "Similar Documents",
+    "searchingSimilar": "Searching for similar documents...",
+    "similarDocsFound": "{{count}} related document(s) found. Please review before creating tickets."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "jiraAutomation": "Ticket Creation",
+    "knowledgeSearch": "Knowledge Search",
+    "prReview": "PR Review",
+    "errorLogSearch": "Error Log Search"
+  },
+  "dashboard": {
+    "welcome": "Welcome to Project-K",
+    "subtitle": "Unified platform that streamlines development and operations",
+    "featuresTitle": "Features",
+    "externalToolsTitle": "External Tools",
+    "startButton": "Get Started",
+    "configStatus": "Configuration Status",
+    "configNote": "The following configurations are incomplete. Some features may be limited in demo.",
+    "teamsNotConfigured": "Teams API Not Configured",
+    "teamsNotConfiguredDesc": "Azure AD app registration required (admin access needed)",
+    "confluenceSpaceNotSet": "Confluence Space ID Not Set",
+    "confluenceSpaceNotSetDesc": "Set VITE_CONFLUENCE_SPACE_ID environment variable",
+    "allConfigured": "All configurations complete",
+    "requiresSetup": "Requires Setup",
+    "features": {
+      "jira": {
+        "title": "JIRA Automation",
+        "description": "Create JIRA tickets automatically from chat"
+      },
+      "knowledge": {
+        "title": "Knowledge Search",
+        "description": "Cross-search Confluence and JIRA"
+      },
+      "prReview": {
+        "title": "PR Review",
+        "description": "Automated code review"
+      },
+      "errorLog": {
+        "title": "Error Log Search",
+        "description": "Search solutions from error logs"
+      }
+    },
+    "stats": {
+      "ticketsCreated": "Tickets Created This Week",
+      "reviewedPRs": "PRs Reviewed",
+      "searchQueries": "Search Queries",
+      "resolvedIssues": "Issues Resolved",
+      "openIssues": "Open Issues",
+      "inProgress": "In Progress",
+      "highPriority": "High/Highest Priority",
+      "bugs": "Open Bugs",
+      "dueToday": "Due Today",
+      "overdue": "Overdue",
+      "updatedToday": "Updated Today",
+      "loading": "Loading...",
+      "error": "Failed to load data",
+      "retry": "Retry",
+      "lastUpdated": "Last updated",
+      "liveData": "JIRA Connected",
+      "projectKey": "Project"
+    },
+    "externalLinks": {
+      "confluence": "Knowledge Base & Docs",
+      "jira": "Project & Issue Management",
+      "salesforce": "CRM & Customer Management"
+    },
+    "activeTasks": {
+      "title": "Active Tasks",
+      "inProgress": "In Progress",
+      "todo": "To Do",
+      "highPriority": "High Priority",
+      "dueOrOverdue": "Due / Overdue",
+      "noTasks": "No tasks",
+      "unassigned": "Unassigned",
+      "openInJira": "Open in JIRA"
+    }
+  },
+  "prReview": {
+    "pageTitle": "PR Review",
+    "pageDescription": "Run AI-powered automatic code reviews",
+    "stats": {
+      "activePRs": "Active PRs",
+      "avgMergeTime": "Avg Merge Time",
+      "qualityRate": "Quality Pass Rate",
+      "complexityIssues": "Complexity Issues",
+      "weeklyChange": "vs last week"
+    },
+    "recentPRs": {
+      "title": "Recent Pull Requests",
+      "viewAll": "View All",
+      "highComplexity": "High Complexity",
+      "lowComplexity": "Low Complexity",
+      "mediumComplexity": "Medium Complexity",
+      "ago": "ago"
+    },
+    "quickStart": {
+      "title": "Quick Start",
+      "description": "Install GitHub Action and start optimizing your workflow today.",
+      "viewDocs": "View Documentation"
+    },
+    "insights": {
+      "aiReview": "AI Review Insights",
+      "aiReviewDesc": "Security vulnerabilities decreased by 15% this month through automated screening.",
+      "commitConsistency": "Commit Consistency",
+      "commitConsistencyDesc": "92% of commits follow Conventional Commits spec, improving traceability."
+    },
+    "systemStatus": {
+      "title": "System Status",
+      "githubWebhook": "GitHub Webhook",
+      "aiWorkerNodes": "AI Worker Nodes",
+      "active": "Active",
+      "inactive": "Inactive",
+      "running": "Running"
+    },
+    "review": {
+      "title": "Run PR Review",
+      "urlPlaceholder": "Enter GitHub PR URL... (e.g., https://github.com/owner/repo/pull/123)",
+      "startReview": "Start Review",
+      "analyzing": "Analyzing...",
+      "result": "Review Result",
+      "issuesFound": "Issues Found",
+      "issuesCount": "{{count}} issues",
+      "suggestions": "Improvement Suggestions",
+      "filesChanged": "Files Changed",
+      "complexityScore": "Complexity Score",
+      "severity": {
+        "error": "Error",
+        "warning": "Warning",
+        "info": "Info"
+      },
+      "recommendation": {
+        "APPROVE": "Approve Recommended",
+        "REQUEST_CHANGES": "Request Changes",
+        "COMMENT": "Comment"
+      }
+    },
+    "time": {
+      "hoursAgo": "{{count}}h ago",
+      "minutesAgo": "{{count}}m ago",
+      "minute": "min",
+      "running": "Running"
+    }
+  }
+}
